@@ -1,6 +1,37 @@
-footer{
-    background-color: crimson;
-    padding: 20px;
-    text-align: center;
-    color:#fff;
+footer {
+    background: #165DF5;
+    padding: 23px 0;
+
+    .footer__wrapper {
+        display: flex;
+        justify-content: space-between;
+        
+        ul {
+            padding: 0;
+            display: flex;
+            gap: 32px;
+
+            li {
+                list-style: none;
+                color: rgb(255, 255, 255);
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: left;
+                cursor: pointer;
+            }
+        }
+
+        p {
+            color: rgb(255, 255, 255);
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: right;
+        }
+    }
 }
